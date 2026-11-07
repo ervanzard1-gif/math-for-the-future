@@ -12,6 +12,7 @@ operator=input('masukan operator = ')
 
 hasil=0
 
+
 while True:
     if operator=='+':
         hasil=angka1+angka2
@@ -56,13 +57,13 @@ while True:
     
     elif operator=='arctrigono':
         trigono=input('masukan jenis trigonometri = ')
-        if trigono=='sin':
+        if trigono=='asin':
             hasil=math.asin(angka)
             print(f'arcsin({angka}) = {hasil}')
-        elif trigono=='cos':
+        elif trigono=='acos':
             hasil=math.acos(angka)
             print(f'arccos({angka}) = {hasil}')
-        elif trigono=='tan':
+        elif trigono=='atan':
             hasil=math.atan(angka)
             print(f'arctan({angka}) = {hasil}')
         else:
